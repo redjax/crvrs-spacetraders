@@ -1,2 +1,2 @@
 from .constants import SPACETRADERS_API_V2_BASE, SPACETRADERS_REGISTER_ENDPOINT
-from .methods import random_agentname
+from .methods import random_agentname, build_register_agent_request
