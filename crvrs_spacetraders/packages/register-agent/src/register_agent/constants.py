@@ -1,0 +1,3 @@
+from core.constants import SPACETRADERS_API_V2_BASE
+
+SPACETRADERS_REGISTER_ENDPOINT: str = f"{SPACETRADERS_API_V2_BASE}/register"

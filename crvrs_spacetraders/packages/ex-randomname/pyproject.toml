@@ -1,0 +1,13 @@
+[project]
+name = "ex-randomname"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "redjax", email = "jackenyon@gmail.com" }]
+dependencies = ["Faker>=24.1.0"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false

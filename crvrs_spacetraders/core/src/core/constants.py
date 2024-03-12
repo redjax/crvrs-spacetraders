@@ -1,0 +1,2 @@
+SPACETRADERS_API_BASE_URL: str = "https://api.spacetraders.io"
+SPACETRADERS_API_V2_BASE: str = f"{SPACETRADERS_API_BASE_URL}/v2"

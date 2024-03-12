@@ -1,0 +1,27 @@
+[project]
+name = "Crvrs-Spacetraders"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "redjax", email = "jackenyon@gmail.com" }]
+dependencies = [
+    "ex-randomname @ file:///${PROJECT_ROOT}/crvrs_spacetraders/packages/ex-randomname",
+    "ex-hello @ file:///${PROJECT_ROOT}/crvrs_spacetraders/apps/ex-hello",
+    "register-agent @ file:///${PROJECT_ROOT}/crvrs_spacetraders/packages/register-agent",
+    "core @ file:///${PROJECT_ROOT}/crvrs_spacetraders/core",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=24.2.0",
+    "nox>=2024.3.2",
+    "ruff>=0.3.2",
+    "pytest>=8.1.1",
+    "pytest-xdist>=3.5.0",
+]

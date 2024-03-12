@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./crvrs_spacetraders/apps/ex-hello/src",
+        "./crvrs_spacetraders/packages/ex-randomname/src",
+        "./crvrs_spacetraders/packages/register-agent/src",
+        "./crvrs_spacetraders/common/core/src"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": ".vscode"
+		},
+		{
+			"path": "../",
+			"name": "Git Root",
+		},
+		{
+			"path": "../crvrs_spacetraders/core",
+			"name": "Core"
+		},
+		{
+			"path": "../crvrs_spacetraders/libs",
+			"name": "Libraries"
+		},
+		{
+			"path": "../crvrs_spacetraders/apps",
+			"name": "Apps"
+		},
+		{
+			"path": "../crvrs_spacetraders/packages",
+			"name": "Packages"
+		},
+		{
+			"path": "../crvrs_spacetraders/packages/register-agent",
+			"name": "pkg: register-agent"
+		}
+	]
+}
