@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:2344463d7bc2890bb5e990b37cd5437e41060973d217cadff4b9baa008447cd8"
+content_hash = "sha256:ab89797b0b643bb6645ca05787e6864a54954fabf2d80bbabc77ac9172cd28b7"
 
 [[package]]
 name = "anyio"
@@ -37,7 +37,7 @@ files = [
 name = "core"
 version = "0.1.0"
 requires_python = "==3.11.*"
-path = "../crvrs_spacetraders/core"
+path = "../src/common/core"
 summary = "Default template for PDM package"
 groups = ["default"]
 dependencies = [
@@ -131,11 +131,11 @@ files = [
 name = "register-agent"
 version = "0.1.0"
 requires_python = "==3.11.*"
-path = "../crvrs_spacetraders/packages/register-agent"
+path = "../src/packages/register-agent"
 summary = "Default template for PDM package"
 groups = ["default"]
 dependencies = [
-    "core @ file:///mnt/data/git/Crvrs-Spacetraders/crvrs_spacetraders/packages/register-agent/../../core",
+    "core @ file:///mnt/data/git/Crvrs-Spacetraders/src/packages/register-agent/../../common/core",
     "hishel>=0.0.24",
     "httpx>=0.27.0",
 ]

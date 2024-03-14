@@ -2,10 +2,10 @@
 # It is not intended for manual editing.
 
 [metadata]
-groups = ["default"]
+groups = ["default", "dev"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:134657f13d724a4c3cad4f077a8d149097a69b913b5629c6093a1f907bdf7f9d"
+content_hash = "sha256:c14d30ce22d744c47d6935474737a4dcb3e92f724ff927bdd677ffd0af9affb3"
 
 [[package]]
 name = "anyio"

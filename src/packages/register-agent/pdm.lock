@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:6dd8df4e172fb848eb725e3c11d2a04edec6ef2794ff0c9357ad6f37883465e5"
+content_hash = "sha256:775ec59132cfe8a4d3ba8a9651fd720d917d55c9a5c0f40bca4f2e4569df90bb"
 
 [[package]]
 name = "anyio"
@@ -37,7 +37,7 @@ files = [
 name = "core"
 version = "0.1.0"
 requires_python = "==3.11.*"
-path = "../../core"
+path = "../../common/core"
 summary = "Default template for PDM package"
 groups = ["default"]
 dependencies = [

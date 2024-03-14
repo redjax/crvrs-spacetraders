@@ -4,10 +4,8 @@ version = "0.1.0"
 description = "Default template for PDM package"
 authors = [{ name = "redjax", email = "jackenyon@gmail.com" }]
 dependencies = [
-    "ex-randomname @ file:///${PROJECT_ROOT}/crvrs_spacetraders/packages/ex-randomname",
-    "ex-hello @ file:///${PROJECT_ROOT}/crvrs_spacetraders/apps/ex-hello",
-    "register-agent @ file:///${PROJECT_ROOT}/crvrs_spacetraders/packages/register-agent",
-    "core @ file:///${PROJECT_ROOT}/crvrs_spacetraders/core",
+    "core @ file:///${PROJECT_ROOT}/src/common/core",
+    "register-agent @ file:///${PROJECT_ROOT}/src/packages/register-agent",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
